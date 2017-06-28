@@ -19,7 +19,7 @@ class FilterStateBehavior extends Behavior {
 
     public function events() {
         return [
-            FilterStateInterface::EVENT_INIT => 'afterInit',
+            FilterStateInterface::EVENT_GRID_FILTER_STATE_INIT => 'afterInit',
         ];
     }
 
